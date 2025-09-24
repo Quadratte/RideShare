@@ -19,5 +19,5 @@ final class AppLabel: UILabel {
     textColor = .contentSecondary
     font = .preferredFont(forTextStyle: .title1)
     numberOfLines = 0
-  }  
+  }
 }
