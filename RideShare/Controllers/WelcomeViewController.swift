@@ -10,9 +10,12 @@ class WelcomeViewController: UIViewController {
     return image
   }()
   
-  let mainLabel = AppLabel(text: "Welcome")
+  let mainLabel = AppLabel(text: "Welcome", textAlignment: .center)
+  let subLabel = AppSublabel(text: "Have a better sharing experience")
+
   let createAccountButton = AppMainButton(title: "Create an account")
   let loginButton = AppSecondaryButton(title: "Log In")
+
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -24,6 +27,7 @@ class WelcomeViewController: UIViewController {
     view.backgroundColor = .white
     view.addSubview(welcomeImage)
     view.addSubview(mainLabel)
+    view.addSubview(subLabel)
     view.addSubview(createAccountButton)
     view.addSubview(loginButton)
   }
@@ -37,7 +41,10 @@ class WelcomeViewController: UIViewController {
       welcomeImage.heightAnchor.constraint(equalToConstant: 276),
       
       mainLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-      mainLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+      mainLabel.topAnchor.constraint(equalTo: welcomeImage.bottomAnchor, constant: 30),
+      
+      subLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+      subLabel.topAnchor.constraint(equalTo: mainLabel.bottomAnchor, constant: 12),
       
       createAccountButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 26),
       createAccountButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -26),

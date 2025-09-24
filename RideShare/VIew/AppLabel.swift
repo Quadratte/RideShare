@@ -3,9 +3,10 @@ import UIKit
 
 final class AppLabel: UILabel {
   
-  init(text: String) {
+  init(text: String, textAlignment: NSTextAlignment) {
     super.init(frame: .zero)
     self.text = text
+    self.textAlignment = textAlignment
     configureAppLabel()
   }
   
@@ -17,8 +18,6 @@ final class AppLabel: UILabel {
     translatesAutoresizingMaskIntoConstraints = false
     textColor = .contentSecondary
     font = .preferredFont(forTextStyle: .title1)
-    textAlignment = .center
     numberOfLines = 0
-  }
-  
+  }  
 }
