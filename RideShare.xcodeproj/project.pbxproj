@@ -6,30 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		106073E12E83F3A700422F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106073DA2E83F3A700422F74 /* Assets.xcassets */; };
+		106073E42E83F3A700422F74 /* RideShare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 106073DC2E83F3A700422F74 /* RideShare.xcdatamodeld */; };
+		106073E92E83F49400422F74 /* AppMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106073E82E83F49400422F74 /* AppMainButton.swift */; };
+		106073ED2E83F72500422F74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106073EB2E83F72500422F74 /* ViewController.swift */; };
+		106073F22E83F74F00422F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106073EF2E83F74F00422F74 /* AppDelegate.swift */; };
+		106073F32E83F74F00422F74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106073F02E83F74F00422F74 /* SceneDelegate.swift */; };
+		106073F62E83FC5B00422F74 /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106073F52E83FC5700422F74 /* AppLabel.swift */; };
+		106073F82E84050800422F74 /* AppSecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106073F72E8404FD00422F74 /* AppSecondaryButton.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		106073BE2E83F1CB00422F74 /* RideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		106073DA2E83F3A700422F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		106073DB2E83F3A700422F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106073E02E83F3A700422F74 /* RideShare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RideShare.xcdatamodel; sourceTree = "<group>"; };
+		106073E82E83F49400422F74 /* AppMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainButton.swift; sourceTree = "<group>"; };
+		106073EB2E83F72500422F74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		106073EF2E83F74F00422F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		106073F02E83F74F00422F74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		106073F52E83FC5700422F74 /* AppLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
+		106073F72E8404FD00422F74 /* AppSecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		106073D32E83F1CC00422F74 /* Exceptions for "RideShare" folder in "RideShare" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 106073BD2E83F1CB00422F74 /* RideShare */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		106073C02E83F1CB00422F74 /* RideShare */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				106073D32E83F1CC00422F74 /* Exceptions for "RideShare" folder in "RideShare" target */,
-			);
-			path = RideShare;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		106073BB2E83F1CB00422F74 /* Frameworks */ = {
@@ -45,7 +44,7 @@
 		106073B52E83F1CB00422F74 = {
 			isa = PBXGroup;
 			children = (
-				106073C02E83F1CB00422F74 /* RideShare */,
+				106073DF2E83F3A700422F74 /* RideShare */,
 				106073BF2E83F1CB00422F74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +55,54 @@
 				106073BE2E83F1CB00422F74 /* RideShare.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		106073DF2E83F3A700422F74 /* RideShare */ = {
+			isa = PBXGroup;
+			children = (
+				106073F12E83F74F00422F74 /* Application */,
+				106073E72E83F48600422F74 /* VIew */,
+				106073EC2E83F72500422F74 /* Controllers */,
+				106073F42E83F75600422F74 /* Supporting */,
+				106073DB2E83F3A700422F74 /* Info.plist */,
+				106073DC2E83F3A700422F74 /* RideShare.xcdatamodeld */,
+			);
+			path = RideShare;
+			sourceTree = "<group>";
+		};
+		106073E72E83F48600422F74 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				106073F72E8404FD00422F74 /* AppSecondaryButton.swift */,
+				106073F52E83FC5700422F74 /* AppLabel.swift */,
+				106073E82E83F49400422F74 /* AppMainButton.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		106073EC2E83F72500422F74 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				106073EB2E83F72500422F74 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		106073F12E83F74F00422F74 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				106073EF2E83F74F00422F74 /* AppDelegate.swift */,
+				106073F02E83F74F00422F74 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		106073F42E83F75600422F74 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				106073DA2E83F3A700422F74 /* Assets.xcassets */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +119,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				106073C02E83F1CB00422F74 /* RideShare */,
 			);
 			name = RideShare;
 			packageProductDependencies = (
@@ -122,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106073E12E83F3A700422F74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106073ED2E83F72500422F74 /* ViewController.swift in Sources */,
+				106073E42E83F3A700422F74 /* RideShare.xcdatamodeld in Sources */,
+				106073E92E83F49400422F74 /* AppMainButton.swift in Sources */,
+				106073F22E83F74F00422F74 /* AppDelegate.swift in Sources */,
+				106073F82E84050800422F74 /* AppSecondaryButton.swift in Sources */,
+				106073F62E83FC5B00422F74 /* AppLabel.swift in Sources */,
+				106073F32E83F74F00422F74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +397,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		106073DC2E83F3A700422F74 /* RideShare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				106073E02E83F3A700422F74 /* RideShare.xcdatamodel */,
+			);
+			currentVersion = 106073E02E83F3A700422F74 /* RideShare.xcdatamodel */;
+			path = RideShare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 106073B62E83F1CB00422F74 /* Project object */;
 }

@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  RideShare
-//
-//  Created by S&Q on 24.09.2025.
-//
 
 import UIKit
 import CoreData
