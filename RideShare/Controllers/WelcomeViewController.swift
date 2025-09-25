@@ -16,7 +16,6 @@ class WelcomeViewController: UIViewController {
   let createAccountButton = AppMainButton(title: "Create an account")
   let loginButton = AppSecondaryButton(title: "Log In")
 
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     setupUI()
@@ -34,7 +33,6 @@ class WelcomeViewController: UIViewController {
 
   private func setupConstraints() {
     NSLayoutConstraint.activate([
-      
       welcomeImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 18),
       welcomeImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 18),
       welcomeImage.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -18),

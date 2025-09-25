@@ -20,6 +20,9 @@
 		106074002E84389300422F74 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106073FF2E84389300422F74 /* AppTextField.swift */; };
 		106074022E844F4300422F74 /* VerifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106074012E844F3300422F74 /* VerifyOTPViewController.swift */; };
 		106074042E845C6A00422F74 /* AppAttributedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106074032E845C6000422F74 /* AppAttributedTextView.swift */; };
+		106F38BD2E8529F3009B8F2B /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F38BC2E8529F3009B8F2B /* OTPTextField.swift */; };
+		106F38BF2E853EC3009B8F2B /* AppPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F38BE2E853EB4009B8F2B /* AppPasswordTextField.swift */; };
+		106F38C12E854E38009B8F2B /* SetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F38C02E854E38009B8F2B /* SetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		106073FF2E84389300422F74 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
 		106074012E844F3300422F74 /* VerifyOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPViewController.swift; sourceTree = "<group>"; };
 		106074032E845C6000422F74 /* AppAttributedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAttributedTextView.swift; sourceTree = "<group>"; };
+		106F38BC2E8529F3009B8F2B /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		106F38BE2E853EB4009B8F2B /* AppPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPasswordTextField.swift; sourceTree = "<group>"; };
+		106F38C02E854E38009B8F2B /* SetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		106073E72E83F48600422F74 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				106F38BE2E853EB4009B8F2B /* AppPasswordTextField.swift */,
 				106074032E845C6000422F74 /* AppAttributedTextView.swift */,
 				106073F72E8404FD00422F74 /* AppSecondaryButton.swift */,
 				106073F52E83FC5700422F74 /* AppLabel.swift */,
@@ -96,9 +103,11 @@
 		106073EC2E83F72500422F74 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				106F38C02E854E38009B8F2B /* SetPasswordViewController.swift */,
 				106074012E844F3300422F74 /* VerifyOTPViewController.swift */,
 				106073FC2E840A9900422F74 /* SignUpViewController.swift */,
 				106073EB2E83F72500422F74 /* WelcomeViewController.swift */,
+				106F38BC2E8529F3009B8F2B /* OTPTextField.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -192,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106F38BF2E853EC3009B8F2B /* AppPasswordTextField.swift in Sources */,
 				106073ED2E83F72500422F74 /* WelcomeViewController.swift in Sources */,
 				106074042E845C6A00422F74 /* AppAttributedTextView.swift in Sources */,
 				106073E42E83F3A700422F74 /* RideShare.xcdatamodeld in Sources */,
@@ -202,8 +212,10 @@
 				106073FD2E840AA200422F74 /* SignUpViewController.swift in Sources */,
 				106073F32E83F74F00422F74 /* SceneDelegate.swift in Sources */,
 				106073FA2E8408C700422F74 /* AppSublabel.swift in Sources */,
+				106F38BD2E8529F3009B8F2B /* OTPTextField.swift in Sources */,
 				106074002E84389300422F74 /* AppTextField.swift in Sources */,
 				106074022E844F4300422F74 /* VerifyOTPViewController.swift in Sources */,
+				106F38C12E854E38009B8F2B /* SetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

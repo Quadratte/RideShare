@@ -35,6 +35,7 @@ final class AppAttributedTextView: UITextView {
     linkTextAttributes = [.foregroundColor: UIColor.primaryApp]
     textColor = .contentSecondary
     attributedText = attributedString
+    font = .preferredFont(forTextStyle: .body)
     textAlignment = .center
     textContainerInset = .zero
     textContainer.lineFragmentPadding = 0
